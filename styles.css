@@ -1,0 +1,60 @@
+
+body {
+    background-color: #1f2937;
+}
+
+/* Section 1 */
+.containerOne {
+    display: flex;
+}
+
+.leftBox {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.leftBox2 {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rightBox {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    height: auto;
+    width: 300px;
+}
+
+/* Section 2 */
+
+.testimonials {
+    background-color: #ffffff;
+    text-align: center;
+}
+ul {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* Section 3 */
+
+
+/* Section 4 */
+
+
+/* Footer */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #1f2937;
+}
