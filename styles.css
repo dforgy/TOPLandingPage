@@ -4,32 +4,33 @@ body {
 }
 
 /* Section 1 */
-.containerOne {
+
+.row {
+    background-color: #1f2937;
     display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    padding: 40px;
+    margin: 10rem auto 0 auto;
 }
 
-.leftBox {
+.row > .column > .heroTitle {
     color: #F9FAF8;
-    font-weight: bolder;
     font-size: 48px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex: 50%;
+    max-width: 25%;
 }
 
-.leftBox2 {
+.row > .column > p {
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex: 50%;
+    max-width: 25%;
 }
 
-.rightBox {
-    display: flex;
-    flex: 1;
-    justify-content: right;
-    height: 300px;
-    width: auto;
+.row img {
+    height: auto;
+    width: 300px;
 }
 
 /* Section 2 */
