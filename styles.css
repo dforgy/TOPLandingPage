@@ -80,24 +80,35 @@ a:active {
 .testimonials {
     background-color: #ffffff;
     text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
-.liImg img {
+.flex-box-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.liImg {
     background-color: #ffffff;
-    justify-content: space-around;
     border: 3px solid #3882F6;
     border-radius: 3px;
+    flex: 1 0 21%;
     height: 100px;
-    width: 100px;
-    list-style-type: none;
+    margin: 10px;
+
 }
 
 .liDesc {
     background-color: #ffffff;
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    flex: 1 0 21%;
+    margin: 10px;
+    height: 100px;
 }
 
 
@@ -172,4 +183,5 @@ footer {
     text-align: center;
     color: white;
     background-color: #1f2937;
+    height: 100px;
 }
