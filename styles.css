@@ -132,6 +132,7 @@ a:active {
     color: #1f2937;
     text-align: right;
     padding-right: 150px;
+    padding-bottom: 20px;
 }
 
 /* Section 4 */
@@ -141,18 +142,21 @@ a:active {
     background-color: #3882F6;
     border-radius: 5px;
     justify-content: center;
+    height: 150px;
+    margin: 50px;
 }
 .row2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
+    box-sizing: border-box;
+    flex: 1 0 90%;
 }
 
 .column2 {
-    flex: 50%;
-    max-width: 50%;
+    flex: 1 0 50%;
+    max-width: 60%;
 }
 
 .row2 > .column2 > .newsletter {
